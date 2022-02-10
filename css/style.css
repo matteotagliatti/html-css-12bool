@@ -1,0 +1,19 @@
+body {
+  color: white;
+}
+
+h1 {
+  color: black;
+}
+
+.row {
+  height: 50px;
+}
+
+[class*="col-"] {
+  background-color: #006cfa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+}
